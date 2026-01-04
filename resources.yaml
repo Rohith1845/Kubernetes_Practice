@@ -9,7 +9,7 @@ spec:
   containers:
   - name: nginx
     image: nginx:latest
-    resource:
+    resources:
       requests:
         memory: "68mi"
         cpu: "100m"
