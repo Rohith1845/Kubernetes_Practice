@@ -1,5 +1,5 @@
 apiVersion:
-kind: pod #
+kind: pod #1
 Metadata:
   name: nginx
   namespace: roboshop
