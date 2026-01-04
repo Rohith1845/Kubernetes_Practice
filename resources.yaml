@@ -7,12 +7,12 @@ metadata:
     project: roboshop
 spec:
   containers:
-  - name: nginx
-    image: nginx:latest
-    resources:
-      requests:
-        memory: "68mi"
-        cpu: "100m"
-      limits:
-        memory: "100mi"
-        cpu: "120m"
+    - name: nginx
+      image: nginx:latest
+      resources:
+        requests:
+          memory: "68mi"
+          cpu: "100m"
+        limits:
+          memory: "100mi"
+          cpu: "120m"
