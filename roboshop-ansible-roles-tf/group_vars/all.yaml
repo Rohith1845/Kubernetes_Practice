@@ -1,0 +1,9 @@
+MONGODB_HOST: mongodb-{{ env }}.rdaws86s.fun # mongodb-dev.daws86s.fun
+REDIS_HOST: redis-{{ env }}.rdaws86s.fun
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.rdaws86s.fun
+CART_HOST: cart.backend-alb-{{ env }}.rdaws86s.fun
+USER_HOST: user.backend-alb-{{ env }}.rdaws86s.fun
+RABBITMQ_HOST: rabbitmq-{{ env }}.rdaws86s.fun
+MYSQL_HOST: mysql-{{ env }}.rdaws86s.fun
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.rdaws86s.fun
+PAYMENT_HOST: payment.backend-alb-{{ env }}.rdaws86s.fun
