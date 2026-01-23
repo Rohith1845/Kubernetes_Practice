@@ -195,4 +195,4 @@ resource "terraform_data" "main" {
     provisioner "local-exec" {
         command = "aws ec2 terminate-instances --instance-ids ${aws_instance.main.id} "
     }
-}
+}# test comment
